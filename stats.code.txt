@@ -1,0 +1,8 @@
+> library(readxl)
+> statsdata <- read_excel("C:/Users/rebec/OneDrive/Desktop/statsdata.xlsx")
+> View(statsdata)
+> statsdata <- read_excel("C:/Users/rebec/OneDrive/Desktop/statsdata.xlsx")
+> mean(statsdata$max_price)
+[1] 11357.14
+> sd(statsdata$min_price)
+[1] 2595.696
